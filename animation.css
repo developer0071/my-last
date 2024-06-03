@@ -36,7 +36,7 @@ audio::-webkit-media-controls-volume-slider{
 }
 
 .y{
-  font-size: 25px;
+  font-size: 23px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -51,7 +51,7 @@ audio::-webkit-media-controls-volume-slider{
 }
 .y2{
   vertical-align: bottom;
-  font-size: 24px;
+  font-size: 20px;
   align-items: center;
   justify-content: center;
   display: flex;
