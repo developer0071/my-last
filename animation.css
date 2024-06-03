@@ -1,0 +1,264 @@
+body{
+  background: url(pictures/c4d_028_01-1-2-1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: back 10s linear infinite ;
+}
+audio::-webkit-media-controls-panel{
+  background:linear-gradient(rgba(0, 11, 110, 0.993),rgb(151, 151, 151),rgb(1, 0, 83));
+}
+audio::-webkit-media-controls-play-button{
+  background-color: rgb(175, 175, 175);
+  border-radius: 50%;
+  animation: music1 4s linear infinite;
+}
+
+audio::-webkit-media-controls-current-time-display{
+  color:white
+}
+
+audio::-webkit-media-controls-mute-button{
+  background-color: rgb(175, 175, 175);
+  border-radius: 10px;
+}
+audio::-webkit-media-controls-time-remaining-display
+{
+  color: white;
+}
+audio::-webkit-media-controls-timeline{
+  background-color: rgb(175, 175, 175);
+  border-radius: 45px;
+}
+audio::-webkit-media-controls-volume-slider{
+  background-color: rgb(175, 175, 175);
+  border-radius: 10px;
+}
+
+.y{
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 28vh;
+  color:white;
+  text-shadow: 
+  0 0 10px white, 
+  0 0 20px white, 
+  0 0 30px white, 
+  0 0 40px white;
+  animation: y 2s linear infinite;
+}
+.y2{
+  vertical-align: bottom;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color:white;
+  height: 130px;
+  text-shadow: 
+  0 0 10px white, 
+  0 0 20px white, 
+  0 0 30px white, 
+  0 0 40px white;
+  animation: y 2s linear infinite;
+}
+.container2{
+  padding:20px 0px;
+}
+.dropdown{
+  transition: all 1s ease;
+  display: inline-block;
+  position: absolute;
+  
+}
+.dropdown button{
+  box-shadow: 
+  0 0 10px rgb(0, 41, 177),
+  inset 0 10px rgb(0, 41, 177),
+  0 0 10px rgb(0, 41, 177),
+  inset 0 10px rgb(0, 41, 177);
+  padding:5px 20px;
+  border: none;
+  background: rgb(0, 31, 131);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: all 1s ease;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-shadow: 
+  0 0 5px white,
+  0 0 10px white,
+  0 0 15px white;
+}
+
+.dropdown .content{
+  background: rgb(0, 31, 131);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: none;
+  background: rgb(216, 216, 216);
+  position: absolute;
+  transition: all 1s ease;
+}
+.dropdown:hover .content{
+  box-shadow: 
+  0 0 10px rgb(0, 41, 177),
+  inset 0 10px rgb(0, 41, 177),
+  0 0 10px rgb(0, 41, 177),
+  inset 0 10px rgb(0, 41, 177);
+  background: rgb(0, 31, 131);
+  display: block;
+  transition: all 1s ease;
+}
+.circule {
+  left: 48%;
+  top: 25%;
+  box-shadow: 
+  0 0 10px white ,
+  inset 0 5px white;
+  margin-bottom: 250px;
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid white;
+  animation: animate 8.2s linear infinite;
+}
+.circule1 {
+  left: 48%;
+  top: 25%;
+  box-shadow: 
+  0 0 10px white,
+  inset 0 5px white;
+  margin-bottom: 250px;
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid white;
+  animation: animate 9.2s linear infinite;
+}.circule2 {
+  left: 48%;
+  top: 25%;
+  box-shadow: 
+  0 0 10px white,
+  inset 0 5px white;
+  margin-bottom: 250px;
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid white;
+  animation: animate 8.4s linear infinite;
+}
+.circule3 {
+  left: 48%;
+  top: 25%;
+  box-shadow: 
+  0 0 10px white,
+  inset 0 5px white;
+  margin-bottom: 250px;
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid white;
+  animation: animate 9.4s linear infinite;
+}
+.circule4 {
+  left: 48%;
+  top: 25%;
+  box-shadow: 
+  0 0 10px white,
+  inset 0 5px white;
+  margin-bottom: 250px;
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid white;
+  animation: animate 8.6s linear infinite;
+}
+.circule5 {
+  left: 48%;
+  top: 25%;
+  box-shadow: 
+  0 0 10px white,
+  inset 0 5px white;
+  margin-bottom: 250px;
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid white;
+  animation: animate 9.6s linear infinite;
+}
+.circule6 {
+  left: 48%;
+  top: 25%;
+  box-shadow: 
+  0 0 10px white,
+  inset 0 5px white;
+  margin-bottom: 250px;
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid white;
+  animation: animate 8.8s linear infinite;
+}
+.circule7 {
+  left: 48%;
+  top: 25%;
+  box-shadow: 
+  0 0 10px white,
+  inset 0 5px white;
+  margin-bottom: 250px;
+  position: absolute;
+  display: flex;
+  height: 150px;
+  width: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid white;
+  animation: animate 9.8s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: rotate(900deg);
+  }
+  100%{
+    transform: rotate(-900deg);
+  }
+}
+@keyframes y {
+  0%{
+    text-shadow: none;
+  }
+  50%{
+    text-shadow: 
+    0 0 10px white, 
+    0 0 20px white, 
+    0 0 30px white, 
+    0 0 40px white;
+  }
+  100%{
+    text-shadow: none;
+  }
+}

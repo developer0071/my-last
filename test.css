@@ -1,0 +1,104 @@
+body{
+  background: linear-gradient(360deg, #222222, black);
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+button {
+  width: 240px;
+  height: 240px;
+  margin: 3px;
+  border: solid;
+  border-radius: 9%;
+}
+button:hover{
+  opacity: 70%;
+  transition: all 0.3s;
+}
+button:active{
+  opacity: 50%;
+  transition: all 0.3s;
+}
+.b1{
+  background:url(car.jpg);
+}
+.b2{
+  background:url(flower.webp);
+  background-size: cover;
+}
+.b3{
+  background:url(laptop.jpg);
+}
+.b4{
+  background:url(haunted.jpg);
+}
+.y{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family:"Roboto Condensed", sans-serif;
+}
+.top{
+  display: block;
+  height: 250px;
+}
+.container{
+  width: 1000px;
+  height: 650px;
+  border: 10px solid white;
+  border-radius: 15px;
+}
+.cloack{
+  float: left;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 8px solid white;
+}
+
+.wing1{  
+  margin-top: 10px;
+  margin-left: 85px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  border-radius: 25%;
+  background: white;
+  height: 180px;
+  width: 18px;
+  border-left: 10px solid red;
+  animation: animate 9s linear infinite;
+}
+.wing2{
+  margin-top: 10px;
+  margin-left: 85px;
+  position: absolute;
+  border-radius: 25%;
+  background: white;
+  height: 180px;
+  width: 18px;
+  border-left: 10px solid red;
+  animation: animates 8s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: rotate(120deg);
+  }
+  100%{
+    transform: rotate(3000deg);
+  }
+} 
+@keyframes animates{
+  0%{
+    transform: rotate(120deg);
+  }
+  100%{
+    transform: rotate(300deg);
+  }
+}
