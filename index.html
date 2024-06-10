@@ -51,7 +51,9 @@
           <div class="dropdown">
       <button class="button">music</button>
       <div class="content">
-        <audio id="music" controls autoplay src="audios/Interstellar Main Theme - Hans Zimmer.mp3"></audio>
+        <audio autoplay id="myaudio" allow="autoplay">
+          <source src="audios/Interstellar Main Theme - Hans Zimmer.mp3" type="audio/mpeg">
+        </audio>
         <audio id="music" controls  src="audios/Eminem - Stan (Lyrics) ft. Dido.mp3"></audio>
         <audio id="music" controls  src="audios/New Day - Tokyo Music Walker [Vlog No Copyright Music].mp3"></audio>
         <audio id="music" controls  src="audios/Mr.Kitty - After Dark (Lyrics).mp3"></audio>
@@ -73,5 +75,6 @@
       <p class="y2"><span class="but">but</span>  <span class="there">there is a secret</span>. 
         i hope you`ll find it,but not soon. <span class="thereis">there is some tips   </span>← that will help you.</p></p>
       <a class="enjoy" rel="stylesheet" href="page2.html" >Try to click on something</a>
+        <script> document.getElementById('myaudio').play(); </script>
   </body>
 </html>
